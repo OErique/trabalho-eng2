@@ -13,9 +13,9 @@ while(true){
     console.log("3 - Subir marcha");
     console.log("4 - Descer marcha");
     console.log("5 - Imprimir dados do veículo");
-    console.log("0 - Sair");
+    console.log("0 - Fechar");
 
-    const opcao = +teclado('Escolha uma opção: ');
+    const opcao = +teclado('Escolher uma opção: ');
     if(opcao === 0){
         break;
     }
